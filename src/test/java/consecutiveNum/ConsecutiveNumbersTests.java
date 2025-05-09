@@ -21,11 +21,11 @@ public class ConsecutiveNumbersTests {
 
     @Test
     void testConsecutiveNumbers2() {
-        assertTrue(ConsecutiveNumbers2.consecutiveNumbers(new int[]{1, 2, 3, 4, 5}));
-        assertTrue(ConsecutiveNumbers2.consecutiveNumbers(new int[]{5, 4, 3, 2, 1}));
-        assertFalse(ConsecutiveNumbers2.consecutiveNumbers(new int[]{1, 2, 4, 5}));
-        assertFalse(ConsecutiveNumbers2.consecutiveNumbers(new int[]{1, 2, 2, 3, 4}));
-        assertTrue(ConsecutiveNumbers2.consecutiveNumbers(new int[]{7, 8, 9}));
-        assertFalse(ConsecutiveNumbers2.consecutiveNumbers(new int[]{1}));
+        assertTrue(ConsecutiveNumbers2.consecutiveNumbers(new Integer[]{1, 2, 3, 4, 5}));
+        assertTrue(ConsecutiveNumbers2.consecutiveNumbers(new Integer[]{5, 4, 3, 2, 1}));
+        assertFalse(ConsecutiveNumbers2.consecutiveNumbers(new Integer[]{1, 2, 4, 5}));
+        assertFalse(ConsecutiveNumbers2.consecutiveNumbers(new Integer[]{1, 2, 2, 3, 4}));
+        assertTrue(ConsecutiveNumbers2.consecutiveNumbers(new Integer[]{7, 8, 9}));
+        assertFalse(ConsecutiveNumbers2.consecutiveNumbers(new Integer[]{1}));
     }
 }

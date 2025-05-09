@@ -40,7 +40,7 @@ public class Main {
 //            return reversed.equals(str);
 //        };
 
-        ConsecutiveNumbers2.consecutiveNumbers(new int[]{1, 2, 3, 4, 5});
+//        ConsecutiveNumbers2.consecutiveNumbers(new int[]{1, 2, 3, 4, 5});
 
     }
 }
