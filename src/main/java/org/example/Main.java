@@ -37,35 +37,6 @@ public class Main {
 //            String reversed = new StringBuilder(str).reverse().toString();
 //            return reversed.equals(str);
 //        };
-//        System.out.println(palindrome.palindrome("madam"));
 
-//        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-//        System.out.println(ConsecutiveNumbers2.consecutiveNumbers(numbers));
-
-//        System.out.println(tasks.findHex.FindHex.findHex("Hello Hello world", "48656C6C6F"));
-
-//        System.out.println(tasks.reverseOnlyLetter.ReverseOnlyLetters.reverseString("ez56d"));
-
-//        System.out.println(tasks.pigLatin.PigLatin.translate("banana"));
-
-//        System.out.println(tasks.phoneNum.PhoneNumber.decode("800888TEST"));
-//        String str = "Hello";
-//        System.out.println(tasks.md5.MD5String.encode(str));
-//
-//        MessageDigest md = MessageDigest.getInstance("MD5");
-//
-//        // digest() method is called to calculate message digest
-//        // of an input digest() return array of byte
-//        byte[] messageDigest = md.digest(str.getBytes());
-//
-//        // Convert byte array into signum representation
-//        BigInteger no = new BigInteger(1, messageDigest);
-//
-//        // Convert message digest into hex value
-//        String hashtext = no.toString(16);
-//        while (hashtext.length() < 32) {
-//            hashtext = "0" + hashtext;
-//        }
-//        System.out.println(hashtext);
     }
 }
