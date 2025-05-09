@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.tasks.consecutiveNumbers.ConsecutiveNumbers2;
+
 import java.security.NoSuchAlgorithmException;
 
 public class Main {
@@ -37,6 +39,8 @@ public class Main {
 //            String reversed = new StringBuilder(str).reverse().toString();
 //            return reversed.equals(str);
 //        };
+
+        ConsecutiveNumbers2.consecutiveNumbers(new int[]{1, 2, 3, 4, 5});
 
     }
 }

@@ -109,10 +109,9 @@ public class MD5String {
 
     private static byte[] paddingString(String input) {
         byte[] inputBytes = input.getBytes();
-        long len = inputBytes.length * 8;
+        long len = inputBytes.length * 8L;
 
         int padding = (64 - ((inputBytes.length + 8) % 64));
-        //if (padding == 0) padding = 64;
         byte[] pad = new byte[inputBytes.length + padding + 8];
         System.arraycopy(inputBytes, 0, pad, 0, inputBytes.length);
         pad[inputBytes.length] = (byte) 0x80;
